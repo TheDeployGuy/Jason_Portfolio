@@ -1,0 +1,80 @@
+body {
+  margin-top:0px;
+  margin-bottom:0px;
+  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #FFF;
+}
+
+label{
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left !important;
+}
+.row{
+  margin-bottom: 20px;
+}
+header {
+  min-height: 100vh;
+  background-position: center;
+}
+
+.header-content {
+  text-align: center;
+  padding: 100px 15px;
+}
+
+.header-content hr {
+  border-color: #F05F40 !important;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+.header-content h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.btn-x1 {
+  padding: 15px 30px 15px 30px !important;
+  border:none;
+  border-radius: 2px !important;
+}
+
+.bg-primary {
+  background-color: #F05F40 !important;
+}
+
+.circularImage{
+  border-radius:300px;
+  margin-bottom:20px;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+/*.navbar .navbar-nav {
+    display: inline-block !important;
+    float: none !important;
+}*/
+
+#Experience h1,p,ul {
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: none;
+}
