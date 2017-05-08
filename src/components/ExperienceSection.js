@@ -32,12 +32,12 @@ class ExperienceSection extends Component {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-offset-4 col-md-4 rightAlign">
-                    <h2>Experience 2</h2>
-                    <p>Experience Description</p>
-                </div>
                 <div className="col-md-4">
                     <img alt="exp2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
+                </div>
+                <div className="col-md-8 leftAlign">
+                    <h2>Experience 2</h2>
+                    <p>Experience Description</p>
                 </div>
             </div>
             <div className="row">
