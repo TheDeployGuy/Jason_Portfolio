@@ -1,9 +1,7 @@
 body {
   margin-top:0px;
   margin-bottom:0px;
-  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center fixed;
-  background-size: cover;
-  color: #FFF;
+  color: #000;
 }
 
 label{
@@ -16,7 +14,11 @@ label{
 }
 header {
   min-height: 100vh;
+  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
+  background-size: cover; 
   background-position: center;
+  color: #fff;
+ 
 }
 
 .header-content {
@@ -68,13 +70,12 @@ header {
     transition: background-color .5s ease 0s;
 }
 
-/*.navbar .navbar-nav {
-    display: inline-block !important;
-    float: none !important;
-}*/
-
 #Experience h1,p,ul {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 100;
   text-transform: none;
+}
+
+p {
+  font-size: 25px;
 }

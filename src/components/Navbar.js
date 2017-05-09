@@ -12,7 +12,7 @@ class Navbar extends Component {
             </div>
             <div className="collapse navbar-collapse" id="navMain">
                 <ul className="nav navbar-nav navbar-right">
-                    <li className="active"><a href="#">Home</a></li>
+                    <li className="active"><a href="#">HOME</a></li>
                     <li><a href="#experience">EXPERIENCE</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
