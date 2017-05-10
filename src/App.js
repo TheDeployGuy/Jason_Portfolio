@@ -33,16 +33,6 @@ class App extends Component {
           experienceImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
           experienceDesc: 'I am part of the SmartCloud Team for Social Business. I am working as a Cloud Deployment and Operations Automation Engineer(DevOps)'
         },
-        {
-          experienceTitle: 'p3',
-          experienceImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
-          experienceDesc: 'desc3'
-        },
-        {
-          experienceTitle: 'p3',
-          experienceImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
-          experienceDesc: 'desc3'
-        },
       ],
     };
   }

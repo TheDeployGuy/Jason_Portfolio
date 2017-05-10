@@ -4,21 +4,26 @@ body {
   color: #000;
 }
 
+p {
+  font-size: 25px;
+}
+
 label{
   font-size: 15px;
   font-weight: 100;
   text-align: left !important;
 }
+
 .row{
   margin-bottom: 20px;
 }
+
 header {
   min-height: 100vh;
   background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
   background-size: cover; 
   background-position: center;
   color: #fff;
- 
 }
 
 .header-content {
@@ -38,16 +43,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-}
-
-.btn-x1 {
-  padding: 15px 30px 15px 30px !important;
-  border:none;
-  border-radius: 2px !important;
-}
-
-.bg-primary {
-  background-color: #F05F40 !important;
 }
 
 .circularImage{
@@ -76,6 +71,9 @@ header {
   text-transform: none;
 }
 
-p {
-  font-size: 25px;
+#githubButton{
+  margin-right: 10px;
+  background-color: #FFF;
+  color: rgb(102,43,129);
 }
+
