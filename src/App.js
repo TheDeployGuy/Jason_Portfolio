@@ -9,6 +9,7 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
+      currentActiveTab: 'home',
       projects: [
         {
           projectTitle: 'p1',
@@ -45,10 +46,14 @@ class App extends Component {
       ],
     };
   }
+  handleMenuClick(menuItemClicked){
+    this.setState({currentActiveTab: menuItemClicked});
+  }
+
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Navbar activeTab={this.state.currentActiveTab} onMenuClick={() => this.handleMenuClick()} />
         <HeadSection />
         <ExperienceSection />
         <ProjectsSection projects={this.state.projects} />

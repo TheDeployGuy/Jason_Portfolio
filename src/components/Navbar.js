@@ -12,10 +12,10 @@ class Navbar extends Component {
             </div>
             <div className="collapse navbar-collapse" id="navMain">
                 <ul className="nav navbar-nav navbar-right">
-                    <li className="active"><a href="#">HOME</a></li>
-                    <li><a href="#experience">EXPERIENCE</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li className={(this.props.activeTab === "home") ? "active" : ""}><a href="#home">HOME</a></li>
+                    <li className={(this.props.activeTab === "experiences") ? "active" : ""}><a onClick={() => this.props.onMenuClick("experiences")} href="#experience">EXPERIENCES</a></li>
+                    <li className={(this.props.activeTab === "projects") ? "active" : ""}><a onClick={() => this.props.onMenuClick("projects")} href="#projects">PROJECTS</a></li>
+                    <li className={(this.props.activeTab === "contact") ? "active" : ""}><a onClick={() => this.props.onMenuClick("contact")} href="#contact">CONTACT</a></li>
                 </ul>
             </div>
             </div>

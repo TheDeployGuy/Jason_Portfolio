@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class HeadSection extends Component {
   render() {
     return (
-        <header>
+        <header id="home">
             <div className="header-content">
                 <div className="row">
                     <div className="col-md-offset-3 col-md-6">
