@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ExperienceItem extends Component {
-  render() {
+function ExperienceItem(props){
     return (
         <div className="row">
             <div className="col-md-4">
-                <img alt={this.props.experience.experienceTitle} src={this.props.experience.experienceImg} className="circularImage" />
+                <img alt={props.experience.experienceTitle} src={props.experience.experienceImg} className="circularImage" />
             </div>
             <div className="col-md-8">
-                <h2>{this.props.experience.experienceTitle}</h2>
-                <p>{this.props.experience.experienceDesc}</p>
+                <h2>{props.experience.experienceTitle}</h2>
+                <p>{props.experience.experienceDesc}</p>
             </div>
         </div>
     );
-  }
 }
 
 export default ExperienceItem;

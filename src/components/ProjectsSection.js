@@ -16,7 +16,7 @@ class ProjectsSection extends Component {
 
     return (
         <section>
-            <div className="header-content" id="projects">
+            <div className="header-content" id="PROJECTS">
                 <h1>Projects</h1>
                 <hr/>
                 {projectItems}

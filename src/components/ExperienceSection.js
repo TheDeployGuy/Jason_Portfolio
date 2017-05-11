@@ -4,7 +4,7 @@ class ExperienceSection extends Component {
   render() {
     return (
     <section>
-        <div className="header-content" id="experience">
+        <div className="header-content" id="EXPERIENCES">
             <h1>Experience</h1>
             <hr/>
             <div className="row">
