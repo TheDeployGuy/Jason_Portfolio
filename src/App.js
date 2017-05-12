@@ -9,23 +9,23 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      navbarItems: ['HOME', 'EXPERIENCES', 'PROJECTS', 'CONTACT'],
+      navbarItems: ['HOME', 'PROJECTS', 'EXPERIENCES', 'CONTACT'],
       currentActiveTab: 'home',
       projects: [
         {
-          projectTitle: 'p1',
+          projectTitle: 'Zero Waste Shop Locator',
           projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
           projectDesc: 'desc1'
         },
         {
-          projectTitle: 'p2',
+          projectTitle: 'thedeployguy.com - Personal Blog',
           projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
-          projectDesc: 'desc2'
+          projectDesc: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.'
         },
         {
-          projectTitle: 'p3',
+          projectTitle: 'Game of Life Habit Tracker',
           projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
-          projectDesc: 'desc3'
+          projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.'
         }
       ],
       experiences: [
@@ -46,8 +46,8 @@ class App extends Component {
       <div className="App">
         <Navbar navbarItems={this.state.navbarItems} activeTab={this.state.currentActiveTab} onMenuClick={() => this.handleMenuClick()} />
         <HeadSection />
-        <ExperienceSection />
         <ProjectsSection projects={this.state.projects} />
+        <ExperienceSection />
         <ContactSection />
       </div>
     );

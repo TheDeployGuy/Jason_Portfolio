@@ -12,8 +12,8 @@ class ExperienceSection extends Component {
                     <img alt="exp1" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
                 </div>
                 <div className="col-md-9 leftAlign">
-                    <h2>Cloud Deployment and Operations Automation Engineer - Devops</h2>
-                    <p>I am part of the SmartCloud Team for Social Business. I am working as a Cloud Deployment and Operations Automation Engineer(DevOps)</p>
+                    <h2>Cloud Deployment Automation Engineer - Devops</h2>
+                    <p>I am part of the SmartCloud Team for Social Business. I am working as a Cloud Deployment Automation Engineer(DevOps)</p>
 
                     <p>Some of the projects I am involved in:</p>
                     <ul>
@@ -24,8 +24,8 @@ class ExperienceSection extends Component {
 
                     <p>Achievements:</p>
                     <ul>
-                        <li>Fully automated the deployments of several production environments into SoftLayer/VMware, this effort saved 2-4 days of manual work each week.</li>
-                        <li>Completely refactored existing deployment and operations code making it easier to manage and extend, saving development and implementation time.</li>
+                        <li>Automated the deployments of production environments into SoftLayer & VMware. This effort saved 2-4 days of manual work every week.</li>
+                        <li>Refactored existing distributive deployment automation to be non-distributive. This involved refactoring legacy code and working with many application development teams.</li>
                         <li>Automated Build promotion process saving 10+ hours of manual effort monthly</li>
                     </ul>
                     <p><b>Technologies involved: Python, Java, bash, Perl, PHP, Chef, RunDeck, Jenkins, RTC</b></p>
@@ -36,17 +36,18 @@ class ExperienceSection extends Component {
                     <img alt="exp2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
                 </div>
                 <div className="col-md-9 leftAlign">
-                    <h2>Experience 2</h2>
-                    <p>Experience Description</p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-md-3">
-                    <img alt="exp3" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
-                </div>
-                <div className="col-md-9 leftAlign">
-                    <h2>Experience 3</h2>
-                    <p>Experience Description</p>
+                    <h2>ICT Software Engineer for Connections Cloud</h2>
+                    <p>As part of the DevOps team for Connections Cloud my responsibilities involved:</p>
+                    <ul>
+                        <li>Providing System Admin support for test and production environments</li>
+                        <li>Developing automation tools using Java, Selenium and Python. </li>
+                    </ul>
+
+                    <p>Achievements</p>
+                    <ul>
+                        <li>Developed collection system in python to sort logs fetched from many data centres.</li>
+                        <li>Developed automation to deploy and test cloud environments using Python and Java.</li>
+                    </ul>
                 </div>
             </div>
         </div>

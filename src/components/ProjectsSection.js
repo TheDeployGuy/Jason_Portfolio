@@ -19,7 +19,9 @@ class ProjectsSection extends Component {
             <div className="header-content" id="PROJECTS">
                 <h1>Projects</h1>
                 <hr/>
-                {projectItems}
+                <div className="row">
+                  {projectItems}
+                </div>
             </div>
         </section>
    )
