@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import HeadSection from './components/HeadSection';
 import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -14,17 +14,17 @@ class App extends Component {
       projects: [
         {
           projectTitle: 'Zero Waste Shop Locator',
-          projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
+          projectImg: 'img/zw_store.png',
           projectDesc: 'desc1'
         },
         {
           projectTitle: 'thedeployguy.com - Personal Blog',
-          projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
+          projectImg: 'img/blog.png',
           projectDesc: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.'
         },
         {
           projectTitle: 'Game of Life Habit Tracker',
-          projectImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
+          projectImg: 'img/gol.png',
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.'
         }
       ],
@@ -44,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar navbarItems={this.state.navbarItems} activeTab={this.state.currentActiveTab} onMenuClick={() => this.handleMenuClick()} />
+        {/*<Navbar navbarItems={this.state.navbarItems} activeTab={this.state.currentActiveTab} onMenuClick={() => this.handleMenuClick()} />*/}
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
         <ExperienceSection />

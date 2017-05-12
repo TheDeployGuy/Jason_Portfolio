@@ -9,7 +9,7 @@ class ExperienceSection extends Component {
             <hr/>
             <div className="row">
                 <div className="col-md-3">
-                    <img alt="exp1" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
+                    <img alt="exp1" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="roundImage img-circle" />
                 </div>
                 <div className="col-md-9 leftAlign">
                     <h2>Cloud Deployment Automation Engineer - Devops</h2>
@@ -33,7 +33,7 @@ class ExperienceSection extends Component {
             </div>
             <div className="row">
                 <div className="col-md-3">
-                    <img alt="exp2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="circularImage" />
+                    <img alt="exp2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200" className="roundImage img-circle" />
                 </div>
                 <div className="col-md-9 leftAlign">
                     <h2>ICT Software Engineer for Connections Cloud</h2>

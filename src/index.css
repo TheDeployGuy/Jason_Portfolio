@@ -46,16 +46,18 @@ header {
 }
 
 .circularImage{
-  border-radius:300px;
+  height: 200px;
+  width: 300px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+.roundImage{
   margin-bottom:20px;
 }
 
 .leftAlign {
   text-align: left;
-}
-
-.rightAlign {
-  text-align: right;
 }
 
 .opaque-navbar {
@@ -65,10 +67,18 @@ header {
     transition: background-color .5s ease 0s;
 }
 
-#Experience h1,p,ul {
+#EXPERIENCES{
+  background-color: #4b4340;
+}
+
+#EXPERIENCES h1, h2 {
+  color: white;
+}
+
+#EXPERIENCES p,ul {
   font-size: 20px;
-  font-weight: 100;
   text-transform: none;
+  color: #fff;
 }
 
 #githubButton{
@@ -77,3 +87,9 @@ header {
   color: rgb(102,43,129);
 }
 
+#moveForward{
+  margin-top: 150px;
+}
+#downArrow{
+  color: white;
+}
