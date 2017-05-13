@@ -5,7 +5,13 @@ function ProjectItem(props){
     return (
         <div className="ProjectsItem">
             <div className="col-md-4">
-                <a href="#"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a>
+                <div className="imgContainer">
+                    {/*<a href="#"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a>*/}
+                    <div id="card">
+                            <figure className="front"><a href="#" className="front"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a></figure>
+                            <figure className="back">Test</figure>
+                    </div>
+                </div>
                 <h4>{props.project.projectTitle}</h4>
             </div>
             {/*<div className="col-md-7 leftAlign">
