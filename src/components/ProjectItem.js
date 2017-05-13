@@ -8,7 +8,7 @@ function ProjectItem(props){
                 <div className="imgContainer">
                     {/*<a href="#"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a>*/}
                     <div id="card">
-                            <figure className="front"><a href="#" className="front"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a></figure>
+                            <figure className="front"><a href={props.project.link} className="front"><img alt={props.project.projectTitle} src={props.project.projectImg} className="circularImage" /></a></figure>
                             <figure className="back">Test</figure>
                     </div>
                 </div>
