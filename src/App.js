@@ -15,20 +15,23 @@ class App extends Component {
         {
           projectTitle: 'Zero Waste Shop Locator',
           projectImg: 'img/zw_store.png',
-          projectDesc: 'desc1',
-          link: 'https://www.zerowasteshops.com'
+          projectDesc: 'Website to find stores that sell Zero Waste Products',
+          link: 'https://www.zerowasteshops.com',
+          projectTechnologies: 'Mongo, Expressjs, Angular 2, Nodejs'
         },
         {
           projectTitle: 'thedeployguy.com - Personal Blog',
           projectImg: 'img/blog.png',
-          projectDesc: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.',
-          link: 'https://www.thedeployguy.com'
+          projectDesc: 'My personal blog that I post about technologies and subjects I find interesting.',
+          link: 'https://www.thedeployguy.com',
+          projectTechnologies: 'Wordpress'
         },
         {
           projectTitle: 'Game of Life Habit Tracker',
           projectImg: 'img/gol.png',
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.',
-          link: 'https://golhabittracking.herokuapp.com'
+          link: 'https://golhabittracking.herokuapp.com',
+          projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery'
         }
       ],
       experiences: [

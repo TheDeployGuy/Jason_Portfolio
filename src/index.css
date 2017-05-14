@@ -1,6 +1,6 @@
 body {
-  margin-top:0px;
-  margin-bottom:0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #000;
 }
 
@@ -8,20 +8,20 @@ p {
   font-size: 25px;
 }
 
-label{
+label {
   font-size: 15px;
   font-weight: 100;
   text-align: left !important;
 }
 
-.row{
+.row {
   margin-bottom: 20px;
 }
 
 header {
   min-height: 100vh;
   background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   color: #fff;
 }
@@ -45,15 +45,15 @@ header {
   font-size: 30px;
 }
 
-.circularImage{
+.circularImage {
   height: 200px;
   width: 300px;
-  border-radius:10px;
-  margin-bottom:20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-.roundImage{
-  margin-bottom:20px;
+.roundImage {
+  margin-bottom: 20px;
 }
 
 .leftAlign {
@@ -61,70 +61,70 @@ header {
 }
 
 .opaque-navbar {
-    background-color: rgba(0,0,0,0.5);
-    height: 50px;
-    border-bottom: 0px;
-    transition: background-color .5s ease 0s;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
 }
 
-#EXPERIENCES{
+#EXPERIENCES {
   background-color: #4b4340;
 }
 
-#EXPERIENCES h1, h2 {
+#EXPERIENCES h1,
+h2 {
   color: white;
 }
 
-#EXPERIENCES p,ul {
+#EXPERIENCES p,
+ul {
   font-size: 20px;
   text-transform: none;
   color: #fff;
 }
 
-#githubButton{
+#githubButton {
   margin-right: 10px;
   background-color: #FFF;
-  color: rgb(102,43,129);
+  color: rgb(102, 43, 129);
 }
 
-#moveForward{
+#moveForward {
   margin-top: 150px;
 }
-#downArrow{
+
+#downArrow {
   color: white;
 }
 
-.imgContainer{
+.imgContainer {
   height: 200px;
-  width: 300px;
-  perspective: 800px;
-  padding-left: 15%;
 }
 
 #card {
   width: 100%;
   height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: transform 1s;
-  transform-origin: right center;
-}
-
-#card figure {
-  margin: 0;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+  
 }
 
 #card .back {
-  background: black;
-  transform: rotateY( 180deg );
-  color: white;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-#card:hover{
-  transform: translateX( -100% ) rotateY( -180deg );
+#card .back {
+  width: 100%;
+  color: black;
+  display: none;
+}
+
+#card>a:hover + .back{
+  display: block;
+}
+
+/*Remove this later...*/
+.projectText {
+  margin-top: -20%;
 }
