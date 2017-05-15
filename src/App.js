@@ -9,8 +9,6 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      navbarItems: ['HOME', 'PROJECTS', 'EXPERIENCES', 'CONTACT'],
-      currentActiveTab: 'home',
       projects: [
         {
           projectTitle: 'Zero Waste Shop Locator',
@@ -32,6 +30,13 @@ class App extends Component {
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.',
           link: 'https://golhabittracking.herokuapp.com',
           projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery'
+        },
+        {
+          projectTitle: 'Test',
+          projectImg: 'img/gol.png',
+          projectDesc: 'Test 2',
+          link: '',
+          projectTechnologies: 'Test'
         }
       ],
       experiences: [
@@ -43,14 +48,10 @@ class App extends Component {
       ],
     };
   }
-  handleMenuClick(menuItemClicked){
-    this.setState({currentActiveTab: menuItemClicked});
-  }
 
   render() {
     return (
       <div className="App">
-        {/*<Navbar navbarItems={this.state.navbarItems} activeTab={this.state.currentActiveTab} onMenuClick={() => this.handleMenuClick()} />*/}
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
         <ExperienceSection />

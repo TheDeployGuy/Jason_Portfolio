@@ -4,7 +4,7 @@ function ExperienceItem(props){
     return (
         <div className="row">
             <div className="col-md-4">
-                <img alt={props.experience.experienceTitle} src={props.experience.experienceImg} className="circularImage" />
+                <img alt={props.experience.experienceTitle} src={props.experience.experienceImg} />
             </div>
             <div className="col-md-8">
                 <h2>{props.experience.experienceTitle}</h2>
