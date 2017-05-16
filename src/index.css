@@ -12,6 +12,7 @@ label {
   font-size: 15px;
   font-weight: 100;
   text-align: left !important;
+  color: #fff;
 }
 
 .row {
@@ -60,16 +61,16 @@ header {
   text-align: left;
 }
 
-#EXPERIENCES {
+#CONTACT {
   background-color: #4b4340;
 }
 
-#EXPERIENCES h1,
+#CONTACT h1,
 h2 {
   color: white;
 }
 
-#EXPERIENCES p,
+#CONTACT p,
 ul {
   font-size: 20px;
   text-transform: none;

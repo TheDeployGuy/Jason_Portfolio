@@ -13,14 +13,16 @@ class App extends Component {
         {
           projectTitle: 'Zero Waste Shop Locator',
           projectImg: 'img/zw_store.png',
-          projectDesc: 'Website to find stores that sell Zero Waste Products',
+          projectDesc: 'Find stores that sell Zero Waste Products.',
+          projectDetail: 'This was done for a client that wanted an easier way to for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people came, it was hard to find posts about places that sell Zero Waste Products.',
           link: 'https://www.zerowasteshops.com',
           projectTechnologies: 'Mongo, Expressjs, Angular 2, Nodejs'
         },
         {
-          projectTitle: 'thedeployguy.com - Personal Blog',
+          projectTitle: 'thedeployguy.com',
           projectImg: 'img/blog.png',
-          projectDesc: 'My personal blog that I post about technologies and subjects I find interesting.',
+          projectDesc: 'Personal Blog',
+          projectDetail: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.',
           link: 'https://www.thedeployguy.com',
           projectTechnologies: 'Wordpress'
         },
@@ -28,15 +30,9 @@ class App extends Component {
           projectTitle: 'Game of Life Habit Tracker',
           projectImg: 'img/gol.png',
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.',
+          projectDetail: 'I am a huge user of Habit Trackers. I found [this post] on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits at a time.',
           link: 'https://golhabittracking.herokuapp.com',
           projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery'
-        },
-        {
-          projectTitle: 'Test',
-          projectImg: 'img/gol.png',
-          projectDesc: 'Test 2',
-          link: '',
-          projectTechnologies: 'Test'
         }
       ],
       experiences: [
@@ -54,7 +50,7 @@ class App extends Component {
       <div className="App">
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
-        <ExperienceSection />
+        {/*<ExperienceSection />*/}
         <ContactSection />
       </div>
     );
