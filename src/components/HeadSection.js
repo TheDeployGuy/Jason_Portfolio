@@ -10,8 +10,8 @@ class HeadSection extends Component {
                         <h1>My Portfolio</h1>
                         <hr />
                         <img alt="profilePic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" className="roundImage img-circle" />
-                        <p>My name is Jason Lloyd, I have been working fulltime at IBM for 3 years as a DevOps specialist. I love learning in my spare time and using new technologies. Here you will find a selection of my portfolio so you can see my work and
-                            what I have done over the last few years</p>
+                        <p>My name is Jason, I have been working for 3+ years as an Automation Engineer. In my spare time I am an inspiring Full stack developer mainly specializing . Here you will find personal projects and projects I have done for clients. If you like what you see and think I would be a good fit for your project, Contact me!</p>
+                        <a className="btn btn-default btn-lg btn-git" href="https://www.linkedin.com/in/jason-lloyd/" id="linkedinButton"><i className="fa fa-linkedin fa-2x"></i></a>
                         <a className="btn btn-default btn-lg btn-git" href="http://github.com/thedeployguy" id="githubButton"><i className="fa fa-github fa-2x"></i></a>
                         <a className="btn btn-default btn-lg btn-git" href="https://www.thedeployguy.com" id="website"><i className="fa fa-wpexplorer fa-2x"></i></a>
                         <div id="moveForward">

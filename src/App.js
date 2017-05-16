@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-// import Navbar from './components/Navbar';
 import HeadSection from './components/HeadSection';
-import ExperienceSection from './components/ExperienceSection';
+// import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 
@@ -34,13 +33,6 @@ class App extends Component {
           link: 'https://golhabittracking.herokuapp.com',
           projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery'
         }
-      ],
-      experiences: [
-        {
-          experienceTitle: 'Cloud Deployment and Operations Automation Engineer - Devops',
-          experienceImg: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=200&h=200',
-          experienceDesc: 'I am part of the SmartCloud Team for Social Business. I am working as a Cloud Deployment and Operations Automation Engineer(DevOps)'
-        },
       ],
     };
   }
