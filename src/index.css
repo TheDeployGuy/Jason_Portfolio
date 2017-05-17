@@ -12,7 +12,6 @@ label {
   font-size: 15px;
   font-weight: 100;
   text-align: left !important;
-  color: #fff;
 }
 
 .row {
@@ -61,11 +60,11 @@ header {
   text-align: left;
 }
 
-#CONTACT {
+#TECHNOLOGY {
   background-color: #4b4340;
 }
 
-#CONTACT h1,
+#TECHNOLOGY h1,
 h2 {
   color: white;
 }

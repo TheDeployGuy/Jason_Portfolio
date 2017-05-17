@@ -3,6 +3,7 @@ import HeadSection from './components/HeadSection';
 // import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
+import TechnologySection from './components/TechnologySection';
 
 class App extends Component {
   constructor(){
@@ -42,6 +43,7 @@ class App extends Component {
       <div className="App">
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
+        <TechnologySection />
         {/*<ExperienceSection />*/}
         <ContactSection />
       </div>
