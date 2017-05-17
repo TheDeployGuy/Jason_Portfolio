@@ -60,16 +60,16 @@ header {
   text-align: left;
 }
 
-#TECHNOLOGY {
-  background-color: #4b4340;
+#PROJECTS {
+  background-color: #979290;
 }
 
-#TECHNOLOGY h1,
+#PROJECTS h1,
 h2 {
-  color: white;
+  color: black;
 }
 
-#CONTACT p,
+#PROJECTS p,
 ul {
   font-size: 20px;
   text-transform: none;
@@ -89,4 +89,8 @@ ul {
 
 #downArrow {
   color: white;
+}
+
+#linkedinButton {
+ color: rgb(0, 123, 182) 
 }

@@ -42,9 +42,8 @@ class App extends Component {
     return (
       <div className="App">
         <HeadSection />
-        <ProjectsSection projects={this.state.projects} />
         <TechnologySection />
-        {/*<ExperienceSection />*/}
+        <ProjectsSection projects={this.state.projects} />
         <ContactSection />
       </div>
     );

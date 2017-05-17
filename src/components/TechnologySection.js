@@ -17,6 +17,10 @@ class TechnologySection extends Component {
                   {/*Python*/}
                   {/*Bash*/}
                 </div>
+                <div id="moveForward">
+                    <p><small>What I build with these</small></p>
+                    <a href="#PROJECTS"><i id="downArrow2" className="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></a>
+                </div>
             </div>
         </section>
    )

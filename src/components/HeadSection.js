@@ -15,8 +15,8 @@ class HeadSection extends Component {
                         <a className="btn btn-default btn-lg btn-git" href="http://github.com/thedeployguy" id="githubButton"><i className="fa fa-github fa-2x"></i></a>
                         <a className="btn btn-default btn-lg btn-git" href="https://www.thedeployguy.com" id="website"><i className="fa fa-wpexplorer fa-2x"></i></a>
                         <div id="moveForward">
-                            <p><small>See my projects</small></p>
-                            <a href="#PROJECTS"><i id="downArrow" className="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></a>
+                            <p><small>See my skills</small></p>
+                            <a href="#TECHNOLOGY"><i id="downArrow" className="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
