@@ -4,9 +4,9 @@ class ContactSection extends Component {
   render() {
     return (
     <section>
-      <div className="header-content" id="CONTACT">
+      <div className="text-center" id="CONTACT">
             <h1>Contact me</h1>
-            <hr/>
+            <hr className="headerHR" />
             <div className="row">
                 <div className="col-md-offset-3 col-md-6">
                     <form className="form-horizontal" role="form" method="post" action="index.php">

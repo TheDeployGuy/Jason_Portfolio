@@ -2,6 +2,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #000;
+  font-family: 'Merriweather', serif;
 }
 
 p {
@@ -30,7 +31,7 @@ header {
 
 }
 
-.header-content .headerHR {
+.headerHR {
   border-color: #F05F40 !important;
   border-width: 3px;
   max-width: 50px;
