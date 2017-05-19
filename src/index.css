@@ -31,7 +31,7 @@ header {
   padding: 100px 15px;
 }
 
-.header-content hr {
+.header-content .headerHR {
   border-color: #F05F40 !important;
   border-width: 3px;
   max-width: 50px;
@@ -49,14 +49,12 @@ header {
   height: 200px;
   width: 300px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
 }
 
 .techImage{
-  height: 200px;
-  width: 400px;
+  height: 60px;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 .roundImage {
   margin-bottom: 20px;
@@ -66,21 +64,10 @@ header {
   text-align: left;
 }
 
-#PROJECTS {
-  background-color: rgb(69, 62, 61);
-  color: #fff;
-}
-
-#PROJECTS h1,
-h2 {
-  color: #FFF;
-}
-
 #PROJECTS p,
 ul {
   font-size: 20px;
   text-transform: none;
-  color: #fff;
 }
 
 #githubButton {

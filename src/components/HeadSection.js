@@ -8,7 +8,7 @@ class HeadSection extends Component {
                 <div className="row">
                     <div className="col-md-offset-3 col-md-6">
                         <h1>My Portfolio</h1>
-                        <hr />
+                        <hr className="headerHR" />
                         <img alt="profilePic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" className="roundImage img-circle" />
                         <p>My name is Jason, I have been working for 3+ years as an Automation Engineer. In my spare time I am an inspiring Full stack developer mainly specializing in the MEAN stack. 
                         </p> 

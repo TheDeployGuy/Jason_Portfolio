@@ -18,7 +18,7 @@ class ProjectsSection extends Component {
         <section>
             <div className="header-content" id="PROJECTS">
                 <h1>Projects</h1>
-                <hr/>
+                <hr className="headerHR" />
                 <div className="container">
                   {projectItems}
                 </div>
