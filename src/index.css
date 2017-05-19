@@ -14,10 +14,6 @@ label {
   text-align: left !important;
 }
 
-.row {
-  margin-bottom: 20px;
-}
-
 header {
   min-height: 100vh;
   background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
@@ -28,7 +24,10 @@ header {
 
 .header-content {
   text-align: center;
-  padding: 100px 15px;
+  padding-top: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+
 }
 
 .header-content .headerHR {
@@ -49,19 +48,20 @@ header {
   height: 200px;
   width: 300px;
   border-radius: 10px;
-  margin-bottom: 200px;
 }
 
-.techImage{
+.projectHR {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.techImage {
   height: 60px;
   margin-right: 20px;
 }
+
 .roundImage {
   margin-bottom: 20px;
-}
-
-.leftAlign {
-  text-align: left;
 }
 
 #PROJECTS p,
@@ -77,14 +77,16 @@ ul {
   color: rgb(102, 43, 129);
 }
 
+#linkedinButton {
+  color: rgb(0, 123, 182)
+}
+
 #moveForward {
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #downArrow {
   color: white;
 }
 
-#linkedinButton {
- color: rgb(0, 123, 182) 
-}

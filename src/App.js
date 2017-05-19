@@ -23,7 +23,8 @@ class App extends Component {
           projectDesc: 'Personal Blog',
           projectDetail: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.',
           link: 'https://www.thedeployguy.com',
-          projectTechnologies: 'Wordpress'
+          projectTechnologies: 'Wordpress',
+          projectTechnologiesImgLinks: ['img/wordpress.png']
         },
         {
           projectTitle: 'Game of Life Habit Tracker',
@@ -31,7 +32,8 @@ class App extends Component {
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.',
           projectDetail: 'I am a huge user of Habit Trackers. I found [this post] on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits at a time.',
           link: 'https://golhabittracking.herokuapp.com',
-          projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery'
+          projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery',
+          projectTechnologiesImgLinks: ['img/html5.png', 'img/bootstrap.png', 'img/angular_2.jpg', 'img/jquery.png']
         }
       ],
     };
