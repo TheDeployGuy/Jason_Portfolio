@@ -43,7 +43,6 @@ class App extends Component {
     return (
       <div className="App">
         <HeadSection />
-        {/*<TechnologySection />*/}
         <ProjectsSection projects={this.state.projects} />
         <ContactSection />
       </div>
