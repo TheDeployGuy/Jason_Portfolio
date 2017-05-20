@@ -5,6 +5,7 @@ class ContactSection extends Component {
     return (
     <section>
       <div className="text-center" id="CONTACT">
+				<div className="container">
             <h1>Contact me</h1>
             <hr className="headerHR" />
             <div className="row">
@@ -41,6 +42,7 @@ class ContactSection extends Component {
                     </form>
                 </div>
             </div>
+					</div>
      </div>
    </section>
     );
