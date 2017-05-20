@@ -47,7 +47,8 @@ header {
 
 .projectImage {
   height: 200px;
-  width: 300px;
+  /*width: 350px;*/
+  width: 300px; 
   border-radius: 10px;
 }
 
@@ -91,3 +92,6 @@ ul {
   color: white;
 }
 
+.btn{
+  margin-right: 10px;
+}

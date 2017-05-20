@@ -10,7 +10,7 @@ class App extends Component {
       projects: [
         {
           projectTitle: 'Zero Waste Shop Locator',
-          projectImg: 'img/zw_store.png',
+          projectImg: 'img/zw_store_inpc.png',
           projectDesc: 'Find stores that sell Zero Waste Products.',
           projectDetail: 'This was done for a client that wanted an easier way to for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people came, it was hard to find posts about places that sell Zero Waste Products.',
           link: 'https://www.zerowasteshops.com',

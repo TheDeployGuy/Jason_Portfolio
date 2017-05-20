@@ -42,6 +42,8 @@ class ContactSection extends Component {
                     </form>
                 </div>
             </div>
+						<a className="btn btn-default btn-lg btn-git" href="https://www.linkedin.com/in/jason-lloyd/" id="linkedinButton"><i className="fa fa-linkedin fa-2x"></i></a>
+						<a className="btn btn-default btn-lg btn-git" href="http://github.com/thedeployguy" id="githubButton"><i className="fa fa-github fa-2x"></i></a>
 					</div>
      </div>
    </section>
