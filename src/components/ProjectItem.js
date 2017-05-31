@@ -39,7 +39,9 @@ function ProjectItem(props) {
 }
 
 ProjectItem.propTypes = {
-  project: PropTypes.object.isRequired,
+  project: {
+    projectTitle: PropTypes.string,
+  },
 };
 
 export default ProjectItem;
