@@ -18,7 +18,7 @@ function ProjectItem(props) {
   if (projectTechnologiesImgLinks) {
     imgItems = projectTechnologiesImgLinks.map(img => (
                 // Convert this to functional component
-      <img key={Math.random() * 100} alt={img} src={img} className="techImage" />
+      <img key={img.substring(0, img.indexOf('.'))} alt={img} src={img} className="techImage" />
             ));
   }
   return (
@@ -37,11 +37,5 @@ function ProjectItem(props) {
     </div>
   );
 }
-
-ProjectItem.propTypes = {
-  project: {
-    projectTitle: PropTypes.string,
-  },
-};
 
 export default ProjectItem;
