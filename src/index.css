@@ -129,3 +129,11 @@ ul {
 .btn-danger.btn-outline:hover {
     color: #fff;
 }
+
+.contactPadding {
+  margin-top: 50px;
+}
+
+.contactButtonPadding{
+  margin-top: 20px;
+}

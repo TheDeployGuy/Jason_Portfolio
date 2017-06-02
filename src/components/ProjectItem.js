@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 // Use a Functional Components
 function ProjectItem(props) {
