@@ -40,12 +40,19 @@ class App extends Component {
     };
   }
 
+  handleContactQuery(query) {
+    console.log('in app.js');
+    console.log(query);
+
+    // Send query in email here or submit it to backend that doesn't exist
+  }
+
   render() {
     return (
       <div className="App">
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
-        <ContactSection />
+        <ContactSection sendContactQuery={this.handleContactQuery.bind(this)} />
       </div>
     );
   }
