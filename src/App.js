@@ -13,7 +13,7 @@ class App extends Component {
           projectTitle: 'Zero Waste Shop Locator',
           projectImg: 'img/zw_store_inpc.png',
           projectDesc: 'Find stores that sell Zero Waste Products.',
-          projectDetail: 'This was done for a client that wanted an easier way to for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people came, it was hard to find posts about places that sell Zero Waste Products.',
+          projectDetail: 'This was done for a client that wanted an easier way for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people were added, it was hard to find posts about places that sell Zero Waste Products.',
           link: 'https://www.zerowasteshops.com',
           projectTechnologies: 'Mongo, Expressjs, Angular 2, Nodejs',
           projectTechnologiesImgLinks: ['img/mongo_db.jpeg', 'img/expressjs.png', 'img/angular_2.jpg', 'img/nodejs_2.png', 'img/gmaps.png'],
@@ -22,7 +22,7 @@ class App extends Component {
           projectTitle: 'thedeployguy.com',
           projectImg: 'img/blog.png',
           projectDesc: 'Personal Blog',
-          projectDetail: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my current role in the future.',
+          projectDetail: 'My personal blog that I post about technologies and subjects I find interesting. This is the best way for me to experience technologies I wouldn’t in my current role. It also helps me bring my experience with these technologies into my role in the future.',
           link: 'https://www.thedeployguy.com',
           projectTechnologies: 'Wordpress',
           projectTechnologiesImgLinks: ['img/wordpress.png'],
@@ -52,7 +52,7 @@ class App extends Component {
       <div className="App">
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
-        <ContactSection sendContactQuery={this.handleContactQuery.bind(this)} />
+        <ContactSection sendContactQuery={this.handleContactQuery} />
       </div>
     );
   }
