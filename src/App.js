@@ -11,12 +11,12 @@ class App extends Component {
       projects: [
         {
           projectTitle: 'Oakcourt Counselling',
-          projectImg: '',
+          projectImg: 'img/oakcourt_counselling.png',
           projectDesc: 'Counselling information and appointment site',
           projectDetail: 'This was done for a client that wanted a way for clients to find her counselling services. It also allows users to send a message to book an appointment.',
           link: 'https://www.oakcourtcounselling.ie',
           projectTechnologies: 'Expressjs, Nodejs, JQuery, Bootstrap',
-          projectTechnologiesImgLinks: ['img/expressjs.png', 'img/nodejs_2.png', '', 'img/bootstrap.png'],
+          projectTechnologiesImgLinks: ['img/expressjs.png', 'img/nodejs_2.png', 'img/reactjs.png', 'img/bootstrap.png'],
         },
         {
           projectTitle: 'Zero Waste Shop Locator',
