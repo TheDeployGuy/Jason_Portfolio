@@ -21,7 +21,7 @@ class App extends Component {
         {
           projectTitle: 'Zero Waste Shop Locator',
           projectImg: 'img/zw_store_inpc.png',
-          projectDesc: 'Find stores that sell Zero Waste Products.',
+          projectDesc: 'Find stores that are selling Zero Waste Products',
           projectDetail: 'This was done for a client that wanted an easier way for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people were added, it was hard to find posts about places that sell Zero Waste Products.',
           link: 'https://www.zerowasteshops.com',
           projectTechnologies: 'Mongo, Expressjs, Angular 2, Nodejs',
@@ -39,8 +39,8 @@ class App extends Component {
         {
           projectTitle: 'Game of Life Habit Tracker',
           projectImg: 'img/gol.png',
-          projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits at a time.',
-          projectDetail: 'I am a huge user of Habit Trackers. I found [this post] on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits at a time.',
+          projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits',
+          projectDetail: 'I am a huge user of Habit Trackers. I found [this post] on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits.',
           link: 'https://golhabittracking.herokuapp.com',
           projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery',
           projectTechnologiesImgLinks: ['img/html5.png', 'img/bootstrap.png', 'img/angular_2.jpg', 'img/jquery.png'],
