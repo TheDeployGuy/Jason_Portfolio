@@ -40,7 +40,7 @@ class App extends Component {
           projectTitle: 'Game of Life Habit Tracker',
           projectImg: 'img/gol.png',
           projectDesc: 'Weekly Habit Tracker that focuses on building 3 habits',
-          projectDetail: 'I am a huge user of Habit Trackers. I found [this post] on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits.',
+          projectDetail: 'I am a huge user of Habit Trackers. I found a post on Lifehacker.com that inspired me to create this project. It is a Weekly Habit Tracker that focuses on building 3 habits.',
           link: 'https://golhabittracking.herokuapp.com',
           projectTechnologies: 'HTML, Bootstrap, AngularJS, JQuery',
           projectTechnologiesImgLinks: ['img/html5.png', 'img/bootstrap.png', 'img/angular_2.jpg', 'img/jquery.png'],
