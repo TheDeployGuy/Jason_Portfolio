@@ -42,18 +42,18 @@ class ContactSection extends Component {
               <div className="col-md-6 text-center">
                 <img alt="profilePic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" className="roundImage img-circle" />
                 <div className="row">
-                  <div className="col-md-offset-1 col-md-2">
+                  <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
                     <a className="btn btn-default btn-lg" href="mailto:jaslloyd57@gmail.com" id="linkedinButton"><i className="fa fa-envelope fa-2x" /></a>
                   </div>
-                  <div className="col-md-4 text-left">
+                  <div className="col-xs-4 col-sm-4 ol-md-4 text-left">
                     <h3>jaslloyd@gmail.com</h3>
                   </div>
                 </div>
                 <div className="row contactButtonPadding">
-                  <div className="col-md-offset-1 col-md-2">
+                  <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
                     <a className="btn btn-default btn-lg" href="https://www.linkedin.com/in/jason-lloyd/" id="linkedinButton"><i className="fa fa-linkedin fa-2x" /></a>
                   </div>
-                  <div className="col-md-4 text-left">
+                  <div className="col-xs-4 col-sm-4 col-md-4 text-left">
                     <h3>Jason-Lloyd</h3>
                   </div>
                 </div>
