@@ -2,7 +2,13 @@ import React from 'react';
 
 // Use a Functional Components
 function ProjectItem(props) {
-  let imgItems;
+  let techItems;
+
+  const techStyle = {
+    marginRight: '20px',
+    fontSize: '17px',
+    padding: '10px',
+  };
 
   const {
       project: {
@@ -11,15 +17,15 @@ function ProjectItem(props) {
           projectImg,
           projectDetail,
           projectDesc,
-          projectTechnologiesImgLinks,
+          projectTechnologies,
       },
   } = props;
 
-  if (projectTechnologiesImgLinks) {
-    imgItems = projectTechnologiesImgLinks.map(img => (
-                // Convert this to functional component
-      <img key={img.substring(0, img.indexOf('.'))} alt={img} src={img} className="techImage" />
-            ));
+  console.log(projectTechnologies.length);
+  if (projectTechnologies) {
+    techItems = projectTechnologies.map(tech => (
+      <kbd key={tech} style={techStyle}>{tech}</kbd>
+    ));
   }
   return (
     <div className="ProjectsItem">
@@ -30,7 +36,7 @@ function ProjectItem(props) {
         <div className="col-md-8 text-left">
           <h3>{projectTitle}<small> - {projectDesc}</small></h3>
           <h4>{projectDetail}</h4>
-          {imgItems}
+          {techItems}
         </div>
       </div>
       <hr className="projectHR" />
