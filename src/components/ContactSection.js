@@ -36,7 +36,7 @@ class ContactSection extends Component {
       <section>
         <div className="" id="CONTACT">
           <div className="container">
-            <h1 className="text-center">Reaching out</h1>
+            <h1 className="text-center">Contact me</h1>
             <hr className="headerHR" />
             <div className="row contactPadding">
               <div className="col-md-6 text-center">

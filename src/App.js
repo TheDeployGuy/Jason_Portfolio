@@ -15,7 +15,7 @@ class App extends Component {
           projectDesc: 'Counselling information and appointment site',
           projectDetail: 'This was done for a client that wanted a way for clients to find her counselling services. It also allows users to send a message to book an appointment.',
           link: 'https://www.oakcourtcounselling.ie',
-          projectTechnologies: ['Expressjs', 'Nodejs', 'JQuery', 'Bootstrap'],
+          projectTechnologies: ['Expressjs', 'Nodejs', 'JQuery', 'Bootstrap 4'],
           projectTechnologiesImgLinks: ['img/expressjs.png', 'img/nodejs_2.png', 'img/reactjs.png', 'img/bootstrap.png'],
         },
         {
