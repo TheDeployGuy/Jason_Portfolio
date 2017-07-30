@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Use a Functional Components
 function ProjectItem(props) {
@@ -8,6 +9,10 @@ function ProjectItem(props) {
     marginRight: '20px',
     fontSize: '17px',
     padding: '10px',
+  };
+
+  const techSection = {
+    marginTop: '25px',
   };
 
   const {
@@ -21,7 +26,6 @@ function ProjectItem(props) {
       },
   } = props;
 
-  console.log(projectTechnologies.length);
   if (projectTechnologies) {
     techItems = projectTechnologies.map(tech => (
       <kbd key={tech} style={techStyle}>{tech}</kbd>
@@ -35,8 +39,9 @@ function ProjectItem(props) {
         </div>
         <div className="col-md-8 text-left">
           <h3>{projectTitle}<small> - {projectDesc}</small></h3>
+          <hr />
           <h4>{projectDetail}</h4>
-          {techItems}
+          <h4 style={techSection}>Technologies: {techItems} </h4>
         </div>
       </div>
       <hr className="projectHR" />
@@ -45,3 +50,7 @@ function ProjectItem(props) {
 }
 
 export default ProjectItem;
+
+ProjectItem.propTypes = {
+  project: PropTypes.object.isRequired,
+};

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ContactSection extends Component {
   constructor() {
@@ -98,3 +99,7 @@ class ContactSection extends Component {
 }
 
 export default ContactSection;
+
+ContactSection.propTypes = {
+  sendContactQuery: PropTypes.func.isRequired,
+};
