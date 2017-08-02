@@ -38,10 +38,10 @@ function ProjectItem(props) {
           <a href={link}><img alt={projectTitle} src={projectImg} className="projectImage" /></a>
         </div>
         <div className="col-md-8 text-left">
-          <h3>{projectTitle}<small> - {projectDesc}</small></h3>
+          <h2>{projectTitle}<small> - {projectDesc}</small></h2>
           <hr />
-          <h4>{projectDetail}</h4>
-          <h4 style={techSection}>Technologies: {techItems} </h4>
+          <h3>{projectDetail}</h3>
+          <h3 style={techSection}>Technologies: {techItems} </h3>
         </div>
       </div>
       <hr className="projectHR" />

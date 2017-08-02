@@ -89,7 +89,7 @@ class ContactSection extends Component {
           </div>
           <footer className="footer">
             <div className="container text-right">
-              Designed & Developed by Jason Lloyd
+              <h4>Designed & Developed by Jason Lloyd</h4>
             </div>
           </footer>
         </div>
