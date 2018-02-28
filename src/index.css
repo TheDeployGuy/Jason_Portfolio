@@ -18,7 +18,7 @@ label {
 header {
   /*min-height: 100vh;*/
   background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
-  /*background-size: cover;*/
+  background-size: cover;
   background-position: center;
   color: #fff;
 }
@@ -70,9 +70,8 @@ header {
 }
 
 .roundImage {
-  height: 150px;
   width: 150px;
-  margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 #PROJECTS p,

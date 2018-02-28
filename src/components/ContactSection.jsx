@@ -41,7 +41,6 @@ class ContactSection extends Component {
             <hr className="headerHR" />
             <div className="row contactPadding">
               <div className="col-md-6 text-center">
-                <img alt="profilePic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/026/0f8/2a60dd4.jpg" className="roundImage img-circle" />
                 <div className="row">
                   <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
                     <a className="btn btn-default btn-lg" href="mailto:jaslloyd57@gmail.com" id="linkedinButton"><i className="fa fa-envelope fa-2x" /></a>

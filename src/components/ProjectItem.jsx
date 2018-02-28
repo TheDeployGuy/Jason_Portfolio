@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ProjectItem = ({project: {
-  projectTitle,
-  link,
-  projectImg,
-  projectDetail,
-  projectDesc,
-  projectTechnologies,
-}}) => (
-
+const ProjectItem = ({
+  project: {
+    projectTitle,
+    link,
+    projectImg,
+    projectDetail,
+    projectDesc,
+    projectTechnologies,
+  },
+}) => (
   <div className="ProjectsItem">
     <div className="row">
       <div className="col-sm-12 col-md-12 col-lg-4">
@@ -19,10 +20,18 @@ const ProjectItem = ({project: {
         <h2>{projectTitle}<small> - {projectDesc}</small></h2>
         <hr />
         <h3>{projectDetail}</h3>
-        <h3 style={{marginTop: '25px'}}>
-          Technologies: 
-          { projectTechnologies.map(tech => <kbd key={tech} style={{marginRight: '20px', fontSize: '17px', padding: '10px'}}>{tech}</kbd>) }  
-        </h3>
+        <div className="row">
+          { projectTechnologies.map(tech => (
+            <div className="col-sm-4 col-md-4 col-lg-3">
+              <h3 style={{ marginTop: '25px' }}>
+                <kbd key={tech} style={{ marginRight: '20px', fontSize: '17px', padding: '10px' }}>{tech}</kbd>
+              </h3>
+            </div>
+          ))
+
+        }
+        </div>
+
       </div>
     </div>
     <hr className="projectHR" />
