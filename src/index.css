@@ -3,16 +3,12 @@ body {
   margin-bottom: 0px;
   color: #000;
   font-family: 'Merriweather', serif;
-}
-
-p {
   font-size: 25px;
 }
 
 label {
   font-size: 15px;
   font-weight: 100;
-  text-align: left !important;
 }
 
 header {
@@ -25,9 +21,7 @@ header {
 
 .header-content {
   text-align: center;
-  padding-top: 100px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 50px;
 
 }
 
@@ -37,11 +31,6 @@ header {
   max-width: 50px;
 }
 
-.headerText {
-  text-align: left;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
 
 .header-content h1 {
   font-weight: 700;
@@ -105,29 +94,6 @@ ul {
 
 .footer{
   height: 100px;
-}
-
-.btn-outline {
-    background-color: transparent;
-    color: inherit;
-    transition: all .5s;
-}
-
-.btn-info.btn-outline {
-    color: #5bc0de;
-}
-
-.btn-success.btn-outline {
-    color: #5cb85c;
-}
-
-
-.btn-primary.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-    color: #fff;
 }
 
 .contactPadding {

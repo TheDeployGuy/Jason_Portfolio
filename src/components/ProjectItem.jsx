@@ -17,14 +17,15 @@ const ProjectItem = ({
         <a href={link}><img alt={projectTitle} src={projectImg} className="projectImage" /></a>
       </div>
       <div className="col-md-12 col-lg-8">
-        <h2>{projectTitle}<small> - {projectDesc}</small></h2>
+        <h2>{projectTitle}</h2>
+        <h4>{projectDesc}</h4>
         <hr />
-        <h3>{projectDetail}</h3>
-        <div className="row">
+        <h5>{projectDetail}</h5>
+        <div className="row" style={{ marginTop: '25px' }}>
           { projectTechnologies.map(tech => (
-            <div className="col-sm-4 col-md-4 col-lg-3">
-              <h3 style={{ marginTop: '25px' }}>
-                <kbd key={tech} style={{ marginRight: '20px', fontSize: '17px', padding: '10px' }}>{tech}</kbd>
+            <div key={tech} className="col-sm-4 col-md-4 col-lg-3">
+              <h3>
+                <kbd style={{ fontSize: '17px', padding: '10px' }}>{tech}</kbd>
               </h3>
             </div>
           ))
