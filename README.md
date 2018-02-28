@@ -2,7 +2,6 @@
 
 Technical Details:
  - ReactJS
- - Bootstrap v3
- - JQuery
+ - Bootstrap v4
  - FontAwesome
 
