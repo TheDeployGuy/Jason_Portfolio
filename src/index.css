@@ -13,7 +13,7 @@ label {
 
 header {
   /*min-height: 100vh;*/
-  background: url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
   background-size: cover;
   background-position: center;
   color: #fff;

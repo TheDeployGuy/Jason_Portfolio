@@ -28,11 +28,9 @@ const ProjectItem = ({
                 <kbd style={{ fontSize: '17px', padding: '10px' }}>{tech}</kbd>
               </h3>
             </div>
-          ))
-
-        }
+            ))
+          }
         </div>
-
       </div>
     </div>
     <hr className="projectHR" />
