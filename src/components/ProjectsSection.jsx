@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import ProjectItem from './ProjectItem';
 
 const ProjectsSection = ({ projects }) => (
-  <section>
+  <Fragment>
     <div className="header-content" id="PROJECTS">
       <h1>Projects</h1>
-      <hr className="headerHR pt-5" />
+      <hr className="hr--yellow pt-5" />
       <div className="container">
         { projects.map(project => <ProjectItem key={project.projectTitle} project={project} />)}
       </div>
     </div>
-  </section>
+  </Fragment>
 );
 
 ProjectsSection.propTypes = {

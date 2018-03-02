@@ -6,12 +6,7 @@ body {
   font-size: 25px;
 }
 
-label {
-  font-size: 15px;
-  font-weight: 100;
-}
-
-header {
+.header-section {
   /*min-height: 100vh;*/
   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
   background-size: cover;
@@ -21,11 +16,11 @@ header {
 
 .header-content {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 2em;
 
 }
 
-.headerHR {
+.hr--yellow {
   border-color: #F05F40 !important;
   border-width: 3px;
   max-width: 50px;
@@ -40,25 +35,18 @@ header {
   font-size: 30px;
 }
 
-.projectImage {
+.project-image {
   height: 200px;
-  /*width: 350px;*/
   width: 300px; 
   border-radius: 10px;
 }
 
-.projectHR {
+.hr--project--margin {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.techImage {
-  height: 60px;
-  width: 110px;
-  margin-right: 20px;
-}
-
-.roundImage {
+.img--profileimg--size {
   width: 150px;
   border-radius: 50%;
 }
@@ -88,10 +76,6 @@ ul {
   color: white;
 }
 
-.btn{
-  margin-right: 10px;
-}
-
 .footer{
   height: 100px;
 }
@@ -100,14 +84,6 @@ ul {
   margin-top: 50px;
 }
 
-.contactButtonPadding{
-  margin-top: 20px;
-}
-
 label{
-  font-size: 20px;
-}
-
-.btn{
   font-size: 20px;
 }

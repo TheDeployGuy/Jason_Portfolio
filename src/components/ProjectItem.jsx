@@ -14,7 +14,7 @@ const ProjectItem = ({
   <div className="ProjectsItem">
     <div className="row">
       <div className="col-sm-12 col-md-12 col-lg-4">
-        <a href={link}><img alt={projectTitle} src={projectImg} className="projectImage" /></a>
+        <a href={link}><img alt={projectTitle} src={projectImg} className="project-image" /></a>
       </div>
       <div className="col-md-12 col-lg-8">
         <h2>{projectTitle}</h2>
@@ -33,7 +33,7 @@ const ProjectItem = ({
         </div>
       </div>
     </div>
-    <hr className="projectHR" />
+    <hr className="hr--project--margin" />
   </div>
 );
 
