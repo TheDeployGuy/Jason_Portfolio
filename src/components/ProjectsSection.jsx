@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ProjectItem from './ProjectItem';
 
 const ProjectsSection = ({ projects }) => (
@@ -13,4 +14,7 @@ const ProjectsSection = ({ projects }) => (
   </section>
 );
 
+ProjectsSection.propTypes = {
+  projects: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 export default ProjectsSection;
