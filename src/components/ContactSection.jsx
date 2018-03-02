@@ -59,20 +59,20 @@ class ContactSection extends Component {
                 </div>
               </div>
               <div className="col-md-6">
-                <form className="form-horizontal" onSubmit={e => this.handleSubmit(e)}>
-                  <div className="form-group">
+                <form onSubmit={e => this.handleSubmit(e)}>
+                  <div className="form-group row">
                     <label htmlFor="name" className="col-sm-2">Name:</label>
                     <div className="col-sm-10">
                       <input type="name" name="name" className="form-control" id="name" onChange={e => this.handleChange(e)} required />
                     </div>
                   </div>
-                  <div className="form-group">
+                  <div className="form-group row">
                     <label htmlFor="email" className="col-sm-2">Email:</label>
                     <div className="col-sm-10">
                       <input type="email" name="email" className="form-control" id="email" onChange={e => this.handleChange(e)} required />
                     </div>
                   </div>
-                  <div className="form-group">
+                  <div className="form-group row">
                     <label htmlFor="message" className="col-sm-2">Message:</label>
                     <div className="col-sm-10">
                       <textarea rows="5" name="message" className="form-control" id="message" onChange={e => this.handleChange(e)} required />
