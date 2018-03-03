@@ -17,10 +17,9 @@ body {
 .header-content {
   text-align: center;
   padding-top: 2em;
-
 }
 
-.hr--yellow {
+.hr--orange {
   border-color: #F05F40 !important;
   border-width: 3px;
   max-width: 50px;
@@ -51,39 +50,25 @@ body {
   border-radius: 50%;
 }
 
-#PROJECTS p,
-ul {
-  font-size: 20px;
-  text-transform: none;
-}
-
-#githubButton {
+.btn--github {
   margin-right: 10px;
   background-color: #FFF;
   color: rgb(102, 43, 129);
 }
 
-#linkedinButton {
+.btn--linkedin {
   color: rgb(0, 123, 182)
 }
 
-#moveForward {
+.btn--downarrow--margin {
   margin-top: 100px;
   margin-bottom: 50px;
 }
 
-#downArrow {
+.btn--downarrow--color {
   color: white;
 }
 
 .footer{
   height: 100px;
-}
-
-.contactPadding {
-  margin-top: 50px;
-}
-
-label{
-  font-size: 20px;
 }
