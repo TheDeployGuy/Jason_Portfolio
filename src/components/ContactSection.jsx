@@ -40,7 +40,7 @@ class ContactSection extends Component {
             <h1 className="text-center">Contact me</h1>
             <hr className="hr--yellow" />
             <div className="row contactPadding">
-              <div className="col-md-6 text-center">
+              <div className="col-md-6">
                 <div className="row">
                   <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
                     <a className="btn btn-default btn-lg" href="mailto:jaslloyd57@gmail.com" id="linkedinButton"><i className="fa fa-envelope fa-2x" /></a>

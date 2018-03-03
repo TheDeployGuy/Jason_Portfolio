@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 const ProjectItem = ({
@@ -11,7 +11,7 @@ const ProjectItem = ({
     projectTechnologies,
   },
 }) => (
-  <div className="ProjectsItem">
+  <Fragment>
     <div className="row">
       <div className="col-sm-12 col-md-12 col-lg-4">
         <a href={link}><img alt={projectTitle} src={projectImg} className="project-image" /></a>
@@ -34,7 +34,7 @@ const ProjectItem = ({
       </div>
     </div>
     <hr className="hr--project--margin" />
-  </div>
+  </Fragment>
 );
 
 export default ProjectItem;
