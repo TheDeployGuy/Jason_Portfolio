@@ -16,7 +16,7 @@ const ProjectItem = ({
       <div className="col-sm-12 col-md-12 col-lg-4">
         <a href={link}><img alt={projectTitle} src={projectImg} className="project-image" /></a>
         <div className="row">
-        { projectTechnologies.map(tech => (
+          { projectTechnologies.map(tech => (
             <div key={tech} className="col-sm-4 col-md-4 col-lg-6">
               <h3>
                 <kbd style={{ fontSize: '17px', padding: '10px' }}>{tech}</kbd>
@@ -24,7 +24,7 @@ const ProjectItem = ({
             </div>
             ))
           }
-          </div>
+        </div>
       </div>
       <div className="col-md-12 col-lg-8">
         <h2>{projectTitle}</h2>
