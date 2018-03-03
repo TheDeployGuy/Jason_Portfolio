@@ -8,22 +8,18 @@ class ContactSection extends Component {
       name: '',
       email: '',
       message: '',
-      contactPayload: {},
     };
   }
 
   handleSubmit(e) {
     e.preventDefault();
-    this.setState({
-      contactPayload: {
-        name: this.state.name,
-        email: this.state.email,
-        message: this.state.message,
+    const contactPayload = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message,
+    };
 
-      },
-    }, () => {
-      this.props.sendContactQuery(this.state.contactPayload);
-    });
+    this.props.sendContactQuery(contactPayload);
   }
 
   handleChange(event) {
@@ -41,15 +37,15 @@ class ContactSection extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="row">
-                <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
+                <div className="col-xs-2 col-sm-2 col-md-2">
                   <a className="btn btn-default btn-lg btn--linkedin" href="mailto:jaslloyd57@gmail.com"><i className="fa fa-envelope fa-2x" /></a>
                 </div>
                 <div className="col-xs-4 col-sm-4 ol-md-4 text-left">
                   <h3>jaslloyd@gmail.com</h3>
                 </div>
               </div>
-              <div className="row contactButtonPadding">
-                <div className="col-md-offset-1 col-xs-2 col-sm-2 col-md-2">
+              <div className="row">
+                <div className="col-xs-2 col-sm-2 col-md-2">
                   <a className="btn btn-default btn-lg" href="https://www.linkedin.com/in/jason-lloyd/" id="linkedinButton"><i className="fa fa-linkedin fa-2x" /></a>
                 </div>
                 <div className="col-xs-4 col-sm-4 col-md-4 text-left">

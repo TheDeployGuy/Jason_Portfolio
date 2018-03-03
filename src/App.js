@@ -21,7 +21,7 @@ class App extends Component {
         projectDesc: 'Find stores that are selling Zero Waste Products',
         projectDetail: 'This was done for a client that wanted an easier way for Zero Waste ententhusiasts to find stores that sell Zero waste products. At the time, enthusiasts were using Facebooks groups. The problem was when new people were added, it was hard to find posts about places that sell Zero Waste Products.',
         link: 'https://www.zerowasteshops.com',
-        projectTechnologies: ['Mongo', 'Expressjs', 'Angular 2', 'Nodejs'],
+        projectTechnologies: ['Mongo', 'Expressjs', 'Angular 4', 'Nodejs'],
         projectTechnologiesImgLinks: ['img/mongo_db.jpeg', 'img/expressjs.png', 'img/angular_2.jpg', 'img/nodejs_2.png', 'img/gmaps.png'],
       },
       {
