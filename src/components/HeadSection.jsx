@@ -3,6 +3,12 @@ import React from 'react';
 const HeadSection = () => (
   <div className="header-section">
     <div className="header-content">
+      <div className="row justify-content-end">
+        <div className="col-2">
+          <a className="btn btn-default btn--linkedin" href="mailto:jaslloyd57@gmail.com"><i className="fa fa-envelope fa-2x" /></a>
+          <a className="btn btn-default btn--linkedin" href="https://www.linkedin.com/in/jason-lloyd/"><i className="fa fa-linkedin fa-2x" /></a>
+        </div>
+      </div>
       <div className="row justify-content-center">
         <div className="col-md-8">
           <h1>My Portfolio</h1>

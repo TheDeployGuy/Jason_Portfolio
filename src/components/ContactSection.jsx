@@ -46,7 +46,7 @@ class ContactSection extends Component {
               </div>
               <div className="row">
                 <div className="col-xs-2 col-sm-2 col-md-2">
-                  <a className="btn btn-default btn-lg" href="https://www.linkedin.com/in/jason-lloyd/" id="linkedinButton"><i className="fa fa-linkedin fa-2x" /></a>
+                  <a className="btn btn-default btn-lg btn--linkedin" href="https://www.linkedin.com/in/jason-lloyd/"><i className="fa fa-linkedin fa-2x" /></a>
                 </div>
                 <div className="col-xs-4 col-sm-4 col-md-4 text-left">
                   <h3>Jason-Lloyd</h3>
