@@ -16,7 +16,7 @@ const HeadSection = () => (
           <img alt="profilePic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAQDGAAwAAQAAAAAAAAyaAAAAJGE0MmRlNDMzLTc0YTYtNDZlOS05MzQ5LWEzYmIxOTE4NmVhZg.jpg" className="img--profileimg--size" />
           <p className="mt-4">My name is Jason, I am currently working as a Senior Software Enginner at IBM building Full stack applications. I have worked with clients creating projects with Angular 2/4, React and VueJS. Here you a find collection of personal and client projects.</p>
           <a href="[insert_later]" target="_blank" className="btn btn-lg btn-success btn-outline-success mr-2">Hire me</a>
-          <a href="#CONTACT" className="btn btn-lg btn-info btn-outline-info">Need a website?</a>
+          <button data-toggle="modal" data-target="#myModal" className="btn btn-lg btn-info btn-outline-info">Need a website?</button>
           <div className="btn--downarrow--margin">
             {/* // eslint-disable-next-line */}
             <a href="#PROJECTS">

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import HeadSection from './components/HeadSection';
 import ProjectsSection from './components/ProjectsSection';
-import ContactSection from './components/ContactSection';
+import ContactModal from './components/ContactModal';
+import Footer from './components/Footer';
 
 class App extends Component {
   state = {
@@ -57,7 +58,8 @@ class App extends Component {
       <div className="App">
         <HeadSection />
         <ProjectsSection projects={this.state.projects} />
-        <ContactSection sendContactQuery={this.handleContactQuery} />
+        <ContactModal sendContactQuery={this.handleContactQuery} />
+        <Footer />
       </div>
     );
   }
