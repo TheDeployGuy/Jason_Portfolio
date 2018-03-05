@@ -35,25 +35,7 @@ class ContactSection extends Component {
           <h1 className="text-center">Contact me</h1>
           <hr className="hr--orange" />
           <div className="row">
-            <div className="col-md-6">
-              <div className="row">
-                <div className="col-xs-2 col-sm-2 col-md-2">
-                  <a className="btn btn-default btn-lg btn--linkedin" href="mailto:jaslloyd57@gmail.com"><i className="fa fa-envelope fa-2x" /></a>
-                </div>
-                <div className="col-xs-4 col-sm-4 ol-md-4 text-left">
-                  <h3>jaslloyd@gmail.com</h3>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-2 col-sm-2 col-md-2">
-                  <a className="btn btn-default btn-lg btn--linkedin" href="https://www.linkedin.com/in/jason-lloyd/"><i className="fa fa-linkedin fa-2x" /></a>
-                </div>
-                <div className="col-xs-4 col-sm-4 col-md-4 text-left">
-                  <h3>Jason-Lloyd</h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
+            <div className="col-md-12">
               <form onSubmit={e => this.handleSubmit(e)}>
                 <div className="form-group row">
                   <label htmlFor="name" className="col-sm-2">Name:</label>

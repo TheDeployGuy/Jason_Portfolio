@@ -16,7 +16,6 @@ body {
 
 .header-content {
   text-align: center;
-  /* padding-top: 2em; */
 }
 
 .hr--orange {
@@ -56,12 +55,8 @@ body {
   color: rgb(102, 43, 129);
 }
 
-.btn--linkedin {
-  color: rgb(0, 123, 182)
-}
-
 .btn--downarrow--margin {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -71,4 +66,8 @@ body {
 
 .footer{
   height: 100px;
+}
+
+.fa-chevron-down {
+  font-size: 1.5em;
 }
