@@ -1,12 +1,19 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import ProjectItem from './ProjectItem';
+
+const OrangeHR = styled.hr`
+  border-color: #F05F40 !important;
+  border-width: 3px;
+  max-width: 50px;
+`;
 
 const ProjectsSection = ({ projects }) => (
   <Fragment>
     <div className="header-content mt-4" id="PROJECTS">
       <h1>Projects</h1>
-      <hr className="hr--orange pt-5" />
+      <OrangeHR className="pt-5" />
       <div className="container">
         { projects.map(project => <ProjectItem key={project.projectTitle} project={project} />)}
       </div>

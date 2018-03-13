@@ -1,5 +1,11 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const BuiltWith = styled.kbd`
+  font-size: 17px;
+  padding: 10px;
+`;
 
 const ProjectItem = ({
   project: {
@@ -19,7 +25,7 @@ const ProjectItem = ({
           { projectTechnologies.map(tech => (
             <div key={tech} className="col-sm-4 col-md-4 col-lg-6">
               <h3>
-                <kbd style={{ fontSize: '17px', padding: '10px' }}>{tech}</kbd>
+                <BuiltWith>{tech}</BuiltWith>
               </h3>
             </div>
             ))

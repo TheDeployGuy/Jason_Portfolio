@@ -6,22 +6,8 @@ body {
   font-size: 25px;
 }
 
-.header-section {
-  /*min-height: 100vh;*/
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-}
-
 .header-content {
   text-align: center;
-}
-
-.hr--orange {
-  border-color: #F05F40 !important;
-  border-width: 3px;
-  max-width: 50px;
 }
 
 .header-content h1 {
