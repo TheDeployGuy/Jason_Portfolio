@@ -1,19 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const HeaderSection = styled.div`
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-`;
-
-const OrangeHR = styled.hr`
-  border-color: #F05F40 !important;
-  border-width: 3px;
-  max-width: 50px;
-`;
-
 const HeadSection = () => (
   <HeaderSection>
     <div className="header-content">
@@ -42,5 +29,18 @@ const HeadSection = () => (
     </div>
   </HeaderSection>
 );
+
+const HeaderSection = styled.div`
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+`;
+
+const OrangeHR = styled.hr`
+  border-color: #F05F40 !important;
+  border-width: 3px;
+  max-width: 50px;
+`;
 
 export default HeadSection;

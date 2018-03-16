@@ -21,6 +21,16 @@ const ProjectItem = ({
     <div className="row">
       <div className="col-sm-12 col-md-12 col-lg-4">
         <a href={link}><img alt={projectTitle} src={projectImg} className="project-image" /></a>
+      </div>
+      <div className="col-md-12 col-lg-8">
+        <h2>{projectTitle}</h2>
+        <h4>{projectDesc}</h4>
+        <hr />
+        <h5>{projectDetail}</h5>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-sm-12 col-md-12 col-lg-4">
         <div className="row">
           { projectTechnologies.map(tech => (
             <div key={tech} className="col-sm-4 col-md-4 col-lg-6">
@@ -31,12 +41,6 @@ const ProjectItem = ({
             ))
           }
         </div>
-      </div>
-      <div className="col-md-12 col-lg-8">
-        <h2>{projectTitle}</h2>
-        <h4>{projectDesc}</h4>
-        <hr />
-        <h5>{projectDetail}</h5>
       </div>
     </div>
     <hr className="hr--project--margin" />
