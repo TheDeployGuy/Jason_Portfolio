@@ -56,3 +56,11 @@ body {
 .fa-chevron-down {
   font-size: 1.5em;
 }
+
+#email-button, #linkedin-button {
+  color: white;
+}
+
+#email-button:hover, #linkedin-button:hover {
+  color: #007bff;
+}
