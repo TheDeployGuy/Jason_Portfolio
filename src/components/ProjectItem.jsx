@@ -7,6 +7,15 @@ const BuiltWith = styled.kbd`
   padding: 10px;
 `;
 
+const ProjectSeperator = styled.hr`
+  margin: 100px 0px;
+`;
+
+const ProjectImg = styled.img`
+  height: 200px;
+  width: 300px;
+  border-radious: 10px;
+`;
 const ProjectItem = ({
   project: {
     projectTitle,
@@ -20,7 +29,9 @@ const ProjectItem = ({
   <Fragment>
     <div className="row">
       <div className="col-sm-12 col-md-12 col-lg-4">
-        <a href={link}><img alt={projectTitle} src={projectImg} className="project-image" /></a>
+        <a href={link}>
+          <ProjectImg alt={projectTitle} src={projectImg} />
+        </a>
       </div>
       <div className="col-md-12 col-lg-8">
         <h2>{projectTitle}</h2>
@@ -43,7 +54,7 @@ const ProjectItem = ({
         </div>
       </div>
     </div>
-    <hr className="hr--project--margin" />
+    <ProjectSeperator />
   </Fragment>
 );
 

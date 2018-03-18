@@ -1,6 +1,4 @@
 body {
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: #000;
   font-family: 'Merriweather', serif;
   font-size: 25px;
@@ -13,36 +11,11 @@ body {
 .header-content h1 {
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 30px;
 }
 
-.project-image {
-  height: 200px;
-  width: 300px; 
-  border-radius: 10px;
-}
-
-.hr--project--margin {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.img--profileimg--size {
-  width: 150px;
-  border-radius: 50%;
-}
-
-.btn--github {
-  margin-right: 10px;
-  background-color: #FFF;
-  color: rgb(102, 43, 129);
-}
-
 .btn--downarrow--margin {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .btn--downarrow--color {
