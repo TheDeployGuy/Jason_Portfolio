@@ -27,13 +27,7 @@ class ProjectItemImproved extends Component {
       },
     } = this.props;
 
-    let classes = ''
-    if(this.state.showDetails){
-      classes = 'row mt-2'
-    }else{
-      classes = this.state.defaultClass
-    }
-
+    const classes = this.state.showDetails ? 'row mt-2' : this.state.defaultClass
     return (
       <Fragment>
         <div className={classes}>
