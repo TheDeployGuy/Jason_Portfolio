@@ -14,7 +14,7 @@ const ProjectSeperator = styled.hr`
 const ProjectImg = styled.img`
   height: 200px;
   width: 300px;
-  border-radious: 10px;
+  border-radius: 10px;
 `;
 const ProjectItem = ({
   project: {

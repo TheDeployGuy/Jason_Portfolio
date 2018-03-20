@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import ProjectItem from './ProjectItem';
+import ProjectItemImproved from './ProjectItemImproved';
 
 const OrangeHR = styled.hr`
   border-color: #F05F40 !important;
@@ -15,7 +16,9 @@ const ProjectsSection = ({ projects }) => (
       <h1>Projects</h1>
       <OrangeHR className="pt-5" />
       <div className="container">
-        { projects.map(project => <ProjectItem key={project.projectTitle} project={project} />)}
+        <div className="row">
+          { projects.map(project => <ProjectItemImproved key={project.projectTitle} project={project} />)}
+        </div>
       </div>
     </div>
   </Fragment>
