@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import ProjectItem from './ProjectItem';
@@ -10,19 +10,47 @@ const OrangeHR = styled.hr`
   max-width: 50px;
 `;
 
-const ProjectsSection = ({ projects }) => (
-  <Fragment>
-    <div className="header-content mt-4" id="PROJECTS">
-      <h1>Projects</h1>
-      <OrangeHR className="pt-5" />
-      <div className="container">
-        <div className="row">
-          { projects.map(project => <ProjectItemImproved key={project.projectTitle} project={project} />)}
+class ProjectsSection extends Component {
+
+  state = {
+    showProjects: []
+  }
+
+  componentDidMount() {
+    const initalValues = this.props.projects.map(project => false);
+    console.log(initalValues)
+    this.setState({
+      showProjects: initalValues
+    })
+  }
+
+  onHandleClick(index) {
+    const values = this.state.showProjects.map(val => false);
+    values[index] = !this.state.showProjects[index];
+    this.setState({
+      showProjects: values
+    })
+
+  }
+
+  render() {
+    return (
+      <Fragment>
+      <div className="header-content mt-4" id="PROJECTS">
+        <h1>Projects</h1>
+        <OrangeHR className="pt-5" />
+        <div className="container">
+          <div className="row">
+            { this.props.projects.map((project, i) => 
+              <ProjectItemImproved key={project.projectTitle} project={project} isShown={this.state.showProjects[i]} index={i} handleClick={(index) => this.onHandleClick(index)} />
+            )}
+          </div>
         </div>
       </div>
-    </div>
-  </Fragment>
-);
+    </Fragment>
+    );
+  }
+}
 
 ProjectsSection.propTypes = {
   projects: PropTypes.arrayOf(PropTypes.object).isRequired,

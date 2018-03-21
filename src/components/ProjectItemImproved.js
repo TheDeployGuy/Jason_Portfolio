@@ -9,12 +9,6 @@ class ProjectItemImproved extends Component {
     defaultClass: 'col-4 mt-2'
   }
 
-  handleClick = () => {
-
-    this.setState({
-      showDetails: !this.state.showDetails
-    })
-  }
   render() {
     const {
       project: {
@@ -27,18 +21,27 @@ class ProjectItemImproved extends Component {
       },
     } = this.props;
 
-    const classes = this.state.showDetails ? 'row mt-2' : this.state.defaultClass
+    let classes;
+    let orderVal;
+    if (this.props.isShown){
+      classes = 'row mt-2'
+      orderVal = -1
+    } else {
+      classes = this.state.defaultClass
+      orderVal = ''
+    }
+
     return (
       <Fragment>
-        <div className={classes}>
+        <div className={classes} style={{'order': orderVal}}>
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-4">
-              <a onClick={() => this.handleClick()}>
+              <a onClick={() => this.props.handleClick(this.props.index)}>
                 <ProjectImg alt={projectTitle} src="http://via.placeholder.com/300x200" />
               </a>
             </div>
             {
-              this.state.showDetails && (
+              this.props.isShown && (
                 <div className="col-md-12 col-lg-8">
                   <h2>{projectTitle}</h2>
                   <h4>{projectDesc}</h4>
