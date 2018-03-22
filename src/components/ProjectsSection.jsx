@@ -1,8 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import ProjectItem from './ProjectItem';
-import ProjectItemImproved from './ProjectItemImproved';
+import ProjectItem from './ProjectItemImproved';
 
 const OrangeHR = styled.hr`
   border-color: #F05F40 !important;
@@ -42,7 +41,7 @@ class ProjectsSection extends Component {
         <div className="container">
           <div className="row">
             { this.props.projects.map((project, i) => 
-              <ProjectItemImproved key={project.projectTitle} project={project} isShown={this.state.showProjects[i]} index={i} handleClick={(index) => this.onHandleClick(index)} />
+              <ProjectItem key={project.projectTitle} project={project} isShown={this.state.showProjects[i]} index={i} handleClick={(index) => this.onHandleClick(index)} />
             )}
           </div>
         </div>
