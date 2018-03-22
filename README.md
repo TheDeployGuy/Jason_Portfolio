@@ -4,10 +4,10 @@ This will be personal portfolio Website where I can show off the work I have don
 
 ## Initial Designs 
 Header Section Design
-![header_design](Header_Section.png)
+![header_design](src/img/Header_Section.png)
 
 Project Section Design
-![projects_design](Projects_Section.png)
+![projects_design](src/img/Projects_Section.png)
 
 ## Technical Details:
  - Balsamiq for Design Mock ups

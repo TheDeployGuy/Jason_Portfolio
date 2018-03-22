@@ -20,7 +20,7 @@ const ProjectItem = ({
       <div className="row">
         <div className="col-sm-12 col-md-12 col-lg-4">
           <button className="btn btn-link" onClick={() => handleClick(index)}>
-            <ProjectImg alt={projectTitle} src="http://via.placeholder.com/300x200" />
+            <ProjectImg alt={projectTitle} src={projectImg} />
           </button>
         </div>
         {
