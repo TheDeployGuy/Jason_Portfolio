@@ -12,15 +12,7 @@ const OrangeHR = styled.hr`
 class ProjectsSection extends Component {
 
   state = {
-    showProjects: []
-  }
-
-  componentDidMount() {
-    const initalValues = this.props.projects.map(project => false);
-    console.log(initalValues)
-    this.setState({
-      showProjects: initalValues
-    })
+    showProjects: this.props.projects.map(project => false)
   }
 
   onHandleClick(index) {
@@ -35,7 +27,7 @@ class ProjectsSection extends Component {
   render() {
     return (
       <Fragment>
-      <div className="header-content mt-4" id="PROJECTS">
+      <div className="header-content mb-5 mt-5" id="PROJECTS">
         <h1>Projects</h1>
         <OrangeHR className="pt-5" />
         <div className="container">
